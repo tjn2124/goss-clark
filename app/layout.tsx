@@ -1,16 +1,19 @@
 import type { Metadata } from "next";
-import { Cormorant_Garamond, Libre_Franklin } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 
-const display = Cormorant_Garamond({
+const display = localFont({
+  src: "./fonts/CormorantGaramond-VariableFont_wght.ttf",
   variable: "--font-display",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+  weight: "400 700",
+  style: "normal",
 });
-const sans = Libre_Franklin({
+
+const sans = localFont({
+  src: "./fonts/LibreFranklin-VariableFont_wght.ttf",
   variable: "--font-sans",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600"],
+  weight: "300 600",
+  style: "normal",
 });
 
 export const metadata: Metadata = {
