@@ -120,7 +120,7 @@ export default function Home() {
       </section>
 
       <section className="author-teaser">
-        <div className="author-landscape" aria-hidden="true"><span className="road"/><span className="truck"/></div>
+        <div className="author-landscape" role="img" aria-label="Misty evergreen forest in the Pacific Northwest" />
         <div className="author-copy">
           <p className="section-label">ABOUT THE AUTHOR</p>
           <h2>A scientist’s eye.<br />A storyteller’s conscience.</h2>
@@ -133,15 +133,6 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="journal-teaser">
-        <p className="section-label">FROM THE JOURNAL</p>
-        <h2>Notes from the writing desk</h2>
-        <div className="journal-grid">
-          <article><span>CRAFT</span><h3>Why mystery is the right form for moral conflict</h3><p>A note on suspense, conscience, and the questions a detective story can hold.</p><Link href="/journal">Read note →</Link></article>
-          <article><span>PLACE</span><h3>Listening to the Salish Sea</h3><p>How landscape becomes character—and why the Northwest resists easy answers.</p><Link href="/journal">Read note →</Link></article>
-          <article><span>WORK IN PROGRESS</span><h3>What comes after Raven’s Revenge</h3><p>From a senior residence in University Place to a quiet street in Seattle.</p><Link href="/journal">Read note →</Link></article>
-        </div>
-      </section>
 
       <footer>
         <Link className="wordmark footer-mark" href="/"><span>GOSS</span> CLARK</Link>

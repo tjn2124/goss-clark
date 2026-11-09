@@ -3,7 +3,6 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { PortableText } from "next-sanity";
 import { client } from "../../../sanity/lib/client";
-import "../sample-post/sample-post.css";
 import Image from "next/image";
 import { createImageUrlBuilder } from "@sanity/image-url";
 import type { PortableTextComponents } from "@portabletext/react";
