@@ -28,26 +28,6 @@ const query = `
   }
 `;
 
-const notes = [
-    {
-        tag: "CRAFT",
-        title: "Why mystery is the right form for moral conflict",
-        date: "A note from Goss",
-        text: "A mystery begins with a rupture, but its deeper question is rarely only who committed the crime. I’m interested in what the investigation reveals about a community: what people protect, what they conceal, and which compromises they can live with. This journal will be a place to share more about those choices and the craft behind them.",
-    },
-    {
-        tag: "PLACE",
-        title: "Listening to the Salish Sea",
-        date: "From the writing desk",
-        text: "In Raven’s Revenge, water separates communities and connects them. Islands preserve secrets, weather changes plans, and ravens watch from the shoreline. The Pacific Northwest does more than furnish a backdrop; its natural world presses on every decision the characters make.",
-    },
-    {
-        tag: "WORK IN PROGRESS",
-        title: "Three books, three kinds of consequence",
-        date: "Looking ahead",
-        text: "Raven’s Revenge considers dominion over nature. Assisted Killing turns toward the dignity and vulnerability of elders. Chain Reaction follows the machinery of exploitation and political corruption. Each story asks a different question, but all are concerned with what human beings owe one another.",
-    },
-];
 
 export default async function Journal() {
     const posts = await client.fetch<JournalPost[]>(query);
@@ -100,25 +80,6 @@ export default async function Journal() {
                             >
                                 Read essay →
                             </Link>
-                        </div>
-                    </article>
-                ))}
-
-                {notes.map((note, i) => (
-                    <article key={note.title}>
-                        <div>
-              <span>
-                {String(posts.length + i + 1).padStart(2, "0")}
-              </span>
-                            <small>{note.tag}</small>
-                        </div>
-                        <div>
-                            <p className="note-date">{note.date}</p>
-                            <h2>{note.title}</h2>
-                            <p>{note.text}</p>
-                            <span className="coming">
-                Full essay coming soon
-              </span>
                         </div>
                     </article>
                 ))}
