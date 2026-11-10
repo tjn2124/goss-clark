@@ -51,9 +51,6 @@ export default function Home() {
       </header>
 
       <section className="hero">
-        <div className="hero-sky" />
-        <div className="hero-ridge ridge-back" />
-        <div className="hero-ridge ridge-front" />
         <div className="hero-content">
           <p className="eyebrow">Mysteries from west of the Rockies</p>
           <h1>Where the wild world<br />meets the human heart.</h1>
@@ -120,7 +117,9 @@ export default function Home() {
       </section>
 
       <section className="author-teaser">
-        <div className="author-landscape" role="img" aria-label="Misty evergreen forest in the Pacific Northwest" />
+        <div className="author-portrait-wrap">
+          <img className="author-portrait" src="/images/goss-clark-portrait.jpg" alt="Goss Clark standing outdoors beside a pine tree" />
+        </div>
         <div className="author-copy">
           <p className="section-label">ABOUT THE AUTHOR</p>
           <h2>A scientist’s eye.<br />A storyteller’s conscience.</h2>
