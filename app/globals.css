@@ -10,10 +10,9 @@
 .hero {
   background-color: #213d35;
   background-image:
-    linear-gradient(90deg, rgba(12,35,29,.70) 0%, rgba(21,52,46,.48) 54%, rgba(20,48,42,.28) 100%),
-    linear-gradient(180deg, rgba(59,100,99,.17) 0%, rgba(12,31,25,.48) 100%),
-    url("/images/pacific-northwest-forest.jpg");
-  background-position: center, center, center 48%;
+    linear-gradient(90deg, rgba(11,38,32,.53) 0%, rgba(18,56,48,.30) 55%, rgba(22,61,53,.14) 100%),
+    url("/images/pacific-northwest-illustrated-hero.svg");
+  background-position: center, center;
   background-size: cover;
   background-repeat: no-repeat;
 }
