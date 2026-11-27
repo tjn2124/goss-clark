@@ -85,17 +85,6 @@ export default async function Journal() {
                 ))}
             </section>
 
-            <section className="newsletter">
-                <p className="section-label">STAY IN THE STORY</p>
-                <h2>
-                    Publication news, new writing, and notes from Goss.
-                </h2>
-                <p>
-                    An email signup can be connected here when
-                    the mailing list is ready.
-                </p>
-            </section>
-
             <footer>
                 <Link className="wordmark footer-mark" href="/">
                     <span>GOSS</span> CLARK
