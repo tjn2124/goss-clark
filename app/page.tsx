@@ -31,7 +31,7 @@ const books = [
     image: "/images/chain-reaction.png",
     className: "chain",
     summary:
-      "After witnessing his journalist neighbor’s assassination, former Special Forces soldier Jimmy Elmore joins forces with her half-sister. Their pursuit of the truth leads from Seattle to Colorado—and into a conspiracy built on trafficking, political power, and classified secrets.",
+      "After witnessing his journalist neighbor’s assassination, former Special Forces soldier Jimmy Elmore joins forces with his neighbor’s half-sister. Their pursuit of the truth leads from Seattle to Colorado—and into a conspiracy built on trafficking, political power, and classified secrets.",
     status: "In development",
   },
 ];
@@ -53,7 +53,7 @@ export default function Home() {
       <section className="hero">
         <div className="hero-content">
           <p className="eyebrow">Mysteries from west of the Rockies</p>
-          <h1>Where the wild world<br />meets the human heart.</h1>
+          <h1>Where the natural world<br />meets the human heart</h1>
           <p className="hero-copy">
             Goss Clark writes crime fiction shaped by the waters, forests,
             cities, and enduring conflicts of the Pacific Northwest.
